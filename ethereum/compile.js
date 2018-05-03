@@ -15,6 +15,6 @@ fs.ensureDirSync(buildPath); // check the dir exists, if doesn't exist, create d
 for (let contract in output) {
   fs.outputJsonSync(
     path.resolve(buildPath, contract.replace(':', '') + '.json' ),
-    output[contracts]
+    output[contract]
   );
 }
