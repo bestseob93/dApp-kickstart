@@ -3,8 +3,10 @@
   "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",
+  "scripts": {
+    "test": "mocha"
+  },
   "dependencies": {
-    "fs-extra": "^5.0.0",
     "ganache-cli": "^6.1.0",
     "mocha": "^5.1.1",
     "solc": "^0.4.23",
